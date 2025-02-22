@@ -64,7 +64,7 @@ export const deletePost = async (req, res) => {
       const post = await model.posts.findByPk(id);
       if (!post) return responseData(res, 404, "Không tìm thấy bài viết", null);
   
-      await post.destroy(); // Xóa luôn khỏi database
+      await post.destroy(); 
   
       return responseData(res, 200, "Xóa bài viết thành công", null);
     } catch (error) {
