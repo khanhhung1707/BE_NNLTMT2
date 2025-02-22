@@ -1,0 +1,20 @@
+{
+  "name": "NNPTUDM_Tuan2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "node --env-file=.env src/server.js"
+},
+"dependencies": {
+    "axios": "^1.7.7",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "mysql2": "^3.11.0",
+    "nodemailer": "^6.9.15",
+    "sequelize": "^6.37.3",
+    "sequelize-auto": "^0.8.8"
+  }
+}
+
